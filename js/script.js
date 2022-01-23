@@ -9,7 +9,7 @@ $(document).ready(function(){
     $('#navbar-toggler').click(function(){
         $('.navbar-collapse').slideToggle(400);
     });
-
+    
     // navbar bg change on scroll
     $(window).scroll(function(){
         let pos = $(window).scrollTop();
